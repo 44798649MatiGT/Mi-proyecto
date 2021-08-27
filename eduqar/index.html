@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EduQar</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body style="background-color: black;">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <img src = "img/eduqar.PNG">
+        <!-- Links -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-family: sans-serif;">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/54115/Desktop/cositas%20'_'/eduqrar%7D/Pantalla-inicio.html" style="font-family: sans-serif;">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: sans-serif;">Foro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/54115/Desktop/cositas%20'_'/eduqrar%7D/eduquar.html" style="font-family: sans-serif;">Ejercicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: sans-serif;">Acerca de nosotros
+                </a>
+              </li>
+          </ul>
+        
+          <!-- Navbar text-->
+          <span class="navbar-text">
+        
+          </span>
+        
+        </nav>
+
+    </div>
+
+    <p style="text-align: center;" style="font-family: sans-serif;" >
+        EJERCICIO 1: LENGUA       </p>
+
+    <div id="container" class= "container">
+        <div id="start" style="font-family: sans-serif;">Empezar Juego!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+
+    <footer class="bd-footer py-5 mt-5 bg-dark" style="text-align: center;">
+        <p style="color:white" style="font-family: sans-serif;" >
+            Copyright © 2021 Todos los derechos reservados a EDUQAR        </p>
+      </footer>
+
+    <script src="quiz.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>

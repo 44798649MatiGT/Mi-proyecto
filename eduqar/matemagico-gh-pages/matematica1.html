@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<meta charset="UTF-8">
+		<title></title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="matemagico.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="title" content="Matemágico" />
+		<meta property="og:title" content="Matemágico" />
+		<meta name="description" content="Juegos para probar tus habilidades aritméticas." />
+		<meta property="og:description"content="Juego para probar tus habilidades aritméticas."/>
+		<meta name="keywords" content="matemático, javierbyte, juego, game, matemáticas, math" />
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<meta property="og:image" content="http://javierbyte.com/app/matemagico/facebook.jpg" />
+		<!--[if lt IE 9]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
+	</head>
+	<body style="background-color: black;">
+
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<img src = "img/eduqar.PNG">
+			<!-- Links -->
+			  <ul class="navbar-nav ml-auto">
+				<li class="menu">
+				  <a class="nav-link" href="#" style="font-family: sans-serif; font-size: 20px" >Perfil</a>
+				</li>
+				<a class="nav-link" href="file:///C:/Users/54115/Desktop/cositas%20'_'/eduqrar%7D/Pantalla-inicio.html" style="font-family: sans-serif; font-size: 20px" >Inicio</a>
+            </li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" style="font-family: sans-serif; font-size: 20px">Foro</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="file:///C:/Users/54115/Desktop/cositas%20'_'/eduqrar%7D/eduquar.html" style="font-family: sans-serif; font-size: 20px">Ejercicios</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#" style="font-family: sans-serif; font-size: 20px;">Acerca de nosotros
+					</a>
+				  </li>
+			  </ul>
+			
+			  <!-- Navbar text-->
+			  <span class="navbar-text">
+			
+			  </span>
+			
+			</nav>
+	
+
+		<nav id="top" class="sh">
+			<h1></h1>
+			<!-- <a class="menu" href="javascript:menu()"></a> -->
+			<a class="javierbyte" href="http://javierbyte.com/"></a>
+		</nav>
+		<!--top-->
+		<div id="power">
+			<div id="maxpower">0</div>
+			<div id="powerOn"></div>
+		</div>
+		<!--power-->
+		<div id="mate" class="c0">
+			<div id="o3" class="o">
+				<p></p>
+			</div>
+			<div id="o2" class="o">
+				<p></p>
+			</div>
+			<div id="o1" class="o">
+				<p>...</p>
+			</div>
+			<div id="o0" class="o">
+				<p style="font-family: sans-serif;">'cargando'</p>
+			</div>
+			<input id="res" type="number">
+		</div>
+		<div id="bar">
+			<div id="puntaje">
+				<p>0</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="code.js"></script>
+		<script type="text/javascript" src="matemagico.js"></script>
+		<div class="windowcenter">
+			<div id="window" class="sh">
+				<a href="javascript:windowClose()" class="close sh no">X</a>
+				<div id="msj" class="p" style="font-family: sans-serif;">
+					¡Hola!<br/>
+					Solo escribe el resultado de la operación en verde.
+					<br/><br/>
+					<div class="t-s" style="font-family: sans-serif;">Sin presionar 'enter', si quieres saltarte una operación escribe 00 como respuesta.</div>
+				</div>
+				<div class="buttons">
+					<div class="d6">
+						<a href="javascript:play()" id="btnJugar" class="ju sh" style="font-family: sans-serif;">Jugar</a>
+					</div>
+					<div class="d6">
+						<a target="_blank" href="#" id="btnFacebook" class="fb sh no" style="font-family: sans-serif;">Compartir en fb</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+		
+
+		<footer class="bd-footer py-5 mt-5 bg-dark" style="text-align: center;">
+			<p style="color:white" style="font-family: sans-serif;" >
+				Copyright © 2021 Todos los derechos reservados a EDUQAR        </p>
+		  </footer>
+
+	
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-44329676-3', 'javierbyte.com');
+			ga('send', 'pageview');
+		</script>
+		<div id="fb-root"></div>
+
+		
+
+		<script type="text/javascript" src="//connect.facebook.net/en_US/all.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			FB.init({appId: '1376967322550407', status: true, cookie: true, xfbml: true});
+			FB.Canvas.setSize({height: 600});
+		</script> 
+
+
+
+	</body>
+</html>
